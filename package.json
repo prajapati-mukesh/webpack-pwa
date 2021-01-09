@@ -1,0 +1,24 @@
+{
+  "name": "webpack-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "privaye": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "http-server": "^0.12.3",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
